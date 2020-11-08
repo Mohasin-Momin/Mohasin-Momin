@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 6, 2020, 7:07:51 PM
+    Author     : mohasin
+*/
+
+#navbarbutton{
+    float: left;
+    margin-left: 15px;
+    display: block;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+#navbarbutton2{
+    color: #fff
+}
+.containertop{
+    margin-top: 50px;
+    padding-top: 25px;
+}
+@media (max-width: 1280px){
+    #index_bg{
+    background: url("img/index_bg_1280.jpg") no-repeat center center;
+    }
+    #solar_system_bg{
+    background: url("img/solar_system_overview_1280.jpg") no-repeat center center;
+    }
+}
+@media (max-width: 1024px){
+    #index_bg{
+    background: url("img/index_bg_1024.jpg") no-repeat center center;
+    }
+    #solar_system_bg{
+    background: url("img/solar_system_overview_1024.jpg") no-repeat center center;
+    }
+}
+@media (max-width: 768px){
+    #index_bg{
+    background: url("img/index_bg_768.jpg") no-repeat center center;
+    }
+    #solar_system_bg{
+    background: url("img/solar_system_overview_768.jpg") no-repeat center center;
+    }
+}
+
+
+
+
+@media (max-width: 425px){
+    #index_bg{
+    background: url("img/index_bg_570.jpg") no-repeat center center;
+    }
+    #solar_system_bg{
+    background: url("img/solar_system_overview_570.jpg") no-repeat center center;
+    }
+}
+
+
+
+
+.bg_image{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #f8f8f8;
+    background-size: cover;
+    height: auto;
+}
+
+.index_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0,0,0,0.7);
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SS_index_content{
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 25%;
+    margin-bottom: 12%;
+    background-color: rgba(0,0,0,0.7);
+    
+    margin-left: 15%;
+    margin-right: auto;
+}
+p{
+    font-size: 16px;
+}
+.index_p:hover{
+    font-size: 18px;
+    color: #cccccc;
+}
